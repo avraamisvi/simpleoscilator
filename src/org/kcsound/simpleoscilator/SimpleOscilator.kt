@@ -1,4 +1,7 @@
+package org.kcsound.simpleOscilator;
+
 import com.google.gson.JsonObject;
+import kcsound.instruments.Instrument;
 
 class SimpleOscilator : Instrument {
   override val type: String = "SimpleOscilator";
